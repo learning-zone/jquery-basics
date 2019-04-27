@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery ajax() Example</title>
+    <script type="text/javascript" src="lib/jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $.ajax({
+        url: 'user.php',
+        contentType: 'application/json',
+        type: 'post',
+        dataType: 'json',
+        async: true,
+        cache: true,
+        data: JSON.stringify(postData),
+        success: function(xhr, status) {
+          if (status == 'success') {
+            //some code
+          }
+        },
+        error: function(xhr, status) {
+          //error handling
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container"></div>
+  </body>
+</html>
