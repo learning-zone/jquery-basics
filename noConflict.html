@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery noConflict()</title>
+    <script type="text/javascript" src="lib/jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      var $jqy = jQuery.noConflict();
+      // Use jQuery via jQuery(...)
+      $jqy(document).ready(function() {
+        $jqy('div')
+          .hide()
+          .slow();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container">Hello</div>
+  </body>
+</html>
