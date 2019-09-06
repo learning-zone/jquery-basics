@@ -1,4 +1,6 @@
-# jQuery Interview Questions
+## jQuery Interview Questions
+
+> Click :star: if you like the project. Pull Request are highly appreciated.
 
 1. Explain Method Chaining in jQuery?
 1. Explain **deferred** in jQuery?
