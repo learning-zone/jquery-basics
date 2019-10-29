@@ -195,3 +195,27 @@
 | 15. |slideUp()             |Slides-up (hides) the selected elements|
 | 16. |stop()                |Stops the currently running animation for the selected elements|
 | 17. |toggle()              |Toggles between the hide() and show() methods|
+
+
+#### jQuery Ajax
+
+|Sl.No|Method                |  Description                                      |
+|-----|----------------------|---------------------------------------------------|
+| 01. |$.ajax()              |Performs an async AJAX request|
+| 02. |$.ajaxPrefilter()     |Handle custom Ajax options or modify existing options before each request is sent and before |they are processed by $.ajax()|
+| 03. |$.ajaxSetup()         |Sets the default values for future AJAX requests|
+| 04. |$.ajaxTransport()     |Creates an object that handles the actual transmission of Ajax data|
+| 05. |$.get()               |Loads data from a server using an AJAX HTTP GET request|
+| 06. |$.getJSON()           |Loads JSON-encoded data from a server using a HTTP GET request|
+| 07. |$.getScript()         |Loads (and executes) a JavaScript from a server using an AJAX HTTP GET request|
+| 08. |$.param()             |Creates a serialized representation of an array or object (can be used as URL query string for AJAX requests)|
+| 09. |$.post()              |Loads data from a server using an AJAX HTTP POST request|
+| 10. |ajaxComplete()        |Specifies a function to run when the AJAX request completes|
+| 11. |ajaxError()           |Specifies a function to run when the AJAX request completes with an error|
+| 12. |ajaxSend()            |Specifies a function to run before the AJAX request is sent|
+| 13. |ajaxStart()           |Specifies a function to run when the first AJAX request begins|
+| 14. |ajaxStop()            |Specifies a function to run when all AJAX requests have completed|
+| 15. |ajaxSuccess()         |Specifies a function to run when an AJAX request completes successfully|
+| 16. |load()                |Loads data from a server and puts the returned data into the selected element|
+| 17. |serialize()           |Encodes a set of form elements as a string for submission|
+| 18. |serializeArray()      |Encodes a set of form elements as an array of names and values|
