@@ -172,3 +172,26 @@
 | 49. |triggerHandler()      |Triggers all functions bound to a specified event for the selected elements|
 | 50. |unbind()              |Removes an added event handler from selected elements|
 | 51. |undelegate()          |Removes an event handler to selected elements, now or in the future|
+
+
+#### jQuery Effetcs
+
+|Sl.No|Method                |  Description                                      |
+|-----|----------------------|---------------------------------------------------|
+| 01. |animate()             |Runs a custom animation on the selected elements|
+| 02. |clearQueue()          |Removes all remaining queued functions from the selected elements|
+| 03. |delay()               |Sets a delay for all queued functions on the selected elements|
+| 04. |dequeue()             |Removes the next function from the queue, and then executes the function|
+| 05. |fadeIn()              |Fades in the selected elements|
+| 06. |fadeOut()             |Fades out the selected elements|
+| 07. |fadeTo()              |Fades in/out the selected elements to a given opacity|
+| 08. |fadeToggle()          |Toggles between the fadeIn() and fadeOut() methods|
+| 09. |finish()              |Stops, removes and completes all queued animations for the selected elements|
+| 10. |hide()                |Hides the selected elements|
+| 11. |queue()               |Shows the queued functions on the selected elements|
+| 12. |show()                |Shows the selected elements|
+| 13. |slideDown()           |Slides-down (shows) the selected elements|
+| 14. |slideToggle()         |Toggles between the slideUp() and slideDown() methods|
+| 15. |slideUp()             |Slides-up (hides) the selected elements|
+| 16. |stop()                |Stops the currently running animation for the selected elements|
+| 17. |toggle()              |Toggles between the hide() and show() methods|
