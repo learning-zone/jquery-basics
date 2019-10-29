@@ -44,7 +44,7 @@
 |36.|:hidden                |$("p:hidden")              |All hidden `<p>` elements|
 |37.|:visible               |$("table:visible")         |All visible tables|
 |38.|:root                  |$(":root")                 |The document's root element|
-|39.|:lang(language)        |$("p:lang(de)")            |All `<p>`` elements with a lang attribute value starting with "de" |
+|39.|:lang(language)        |$("p:lang(de)")            |All `<p>` elements with a lang attribute value starting with "de" |
 |40.|[attribute]            |$("[href]")                |All elements with a href attribute|
 |41.  |[attribute=value]      |$("[href='default.htm']")  |All elements with a href attribute value equal to "default.htm"|
 |42.  |[attribute!=value]     | $("[href!='default.htm']")|All elements with a href attribute value not equal to "default.htm"|
