@@ -67,3 +67,51 @@
 |59.|:disabled              |$(":disabled")             |All disabled input elements|
 |60.|:selected              |$(":selected")             |All selected input elements|
 |61.|:checked               |$(":checked")              |All checked input elements|
+
+
+#### JQUERY WITH HTML AND CSS
+
+|Sl.No|Method                |  Description                                      |
+|-----|----------------------|---------------------------------------------------|
+| 01. |*addClass()           |Adds one or more class names to selected elements|
+| 02. |after()               |Inserts content after selected elements|
+| 03. |append()              |Inserts content at the end of selected elements|
+| 04. |appendTo()            |Inserts HTML elements at the end of selected elements|
+| 05. |*attr()               |Sets or returns attributes/values of selected elements|
+| 06. |before()              |Inserts content before selected elements|
+| 07. |clone()               |Makes a copy of selected elements|
+| 08. |*css()                |Sets or returns one or more style properties for selected elements|
+| 09. |closest()			 |get the first element that matches the selector|
+| 10. |detach()              |Removes selected elements (keeps data and events)|
+| 11. |empty()               |Removes all child nodes and content from selected elements|
+| 12. |hasClass()            |Checks if any of the selected elements have a specified class name|
+| 13. |height()              |Sets or returns the height of selected elements|
+| 14. |*html()               |Sets or returns the content of selected elements|
+| 15. |innerHeight()         |Returns the height of an element (includes padding, but not border)|
+| 16. |innerWidth()          |Returns the width of an element (includes padding, but not border)|
+| 17. |insertAfter()         |Inserts HTML elements after selected elements|
+| 18. |insertBefore()        |Inserts HTML elements before selected elements|
+| 19. |offset()              |Sets or returns the offset coordinates for selected elements (relative to the document)|
+| 20. |offsetParent()        |Returns the first positioned parent element|
+| 21. |outerHeight()         |Returns the height of an element (includes padding and border)|
+| 22. |outerWidth()          |Returns the width of an element (includes padding and border)|
+| 23. |position()            |Returns the position (relative to the parent element) of an element|
+| 24. |prepend()             |Inserts content at the beginning of selected elements|
+| 25. |prependTo()           |Inserts HTML elements at the beginning of selected elements|
+| 26. |prop()                |Sets or returns properties/values of selected elements|
+| 27. |*remove()             |Removes the selected elements (including data and events)|
+| 28. |*removeAttr()         |Removes one or more attributes from selected elements|
+| 29. |*removeClass()        |Removes one or more classes from selected elements|
+| 30. |removeProp()          |Removes a property set by the prop() method|
+| 31. |replaceAll()          |Replaces selected elements with new HTML elements|
+| 32. |replaceWith()         |Replaces selected elements with new content|
+| 33. |*scrollLeft()         |Sets or returns the horizontal scrollbar position of selected elements|
+| 34. |*scrollTop()          |Sets or returns the vertical scrollbar position of selected elements|
+| 35. |text()                |Sets or returns the text content of selected elements|
+| 36. |toggleClass()         |Toggles between adding/removing one or more classes from selected elements|
+| 37. |unwrap()              |Removes the parent element of the selected elements|
+| 38. |*val()                |Sets or returns the value attribute of the selected elements (for form elements)|
+| 39. |width()               |Sets or returns the width of selected elements|
+| 40. |wrap()                |Wraps HTML element(s) around each selected element|
+| 41. |wrapAll()             |Wraps HTML element(s) around all selected elements|
+| 42. |wrapInner()           |Wraps HTML element(s) around the content of each selected element|
