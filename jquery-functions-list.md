@@ -115,3 +115,60 @@
 | 40. |wrap()                |Wraps HTML element(s) around each selected element|
 | 41. |wrapAll()             |Wraps HTML element(s) around all selected elements|
 | 42. |wrapInner()           |Wraps HTML element(s) around the content of each selected element|
+
+
+#### jQuery Events
+
+|Sl.No|Method                |  Description                                      |
+|-----|----------------------|---------------------------------------------------|
+| 01. |bind()                |Attaches event handlers to elements|
+| 02. |blur()                |Attaches/Triggers the blur event|
+| 03. |change()              |Attaches/Triggers the change event|
+| 04. |click()               |Attaches/Triggers the click event|
+| 05. |dblclick()            |Attaches/Triggers the double click event|
+| 06. |delegate()            |Attaches a handler to current, or future, specified child elements of the matching elements|
+| 07. |event.currentTarget   |The current DOM element within the event bubbling phase|
+| 08. |event.data            |Contains the optional data passed to an event method when the current executing handler is bound|
+| 09. |event.delegateTarget   |Returns the element where the currently-called jQuery event handler was attached|
+| 10. |event.isDefaultPrevented() |Returns whether event.preventDefault() was called for the event object|
+| 11. |event.isImmediatePropagationStopped()| Returns whether event.stopImmediatePropagation() was called for the event object|
+| 12. |event.isPropagationStopped() |Returns whether event.stopPropagation() was called for the event object|
+| 13. |event.namespace              |Returns the namespace specified when the event was triggered|
+| 14. |event.pageX                  |Returns the mouse position relative to the left edge of the document|
+| 15. |event.pageY                  |Returns the mouse position relative to the top edge of the document|
+| 16. |event.preventDefault()       |Prevents the default action of the event|
+| 17. |event.relatedTarget          |Returns which element being entered or exited on mouse movement.|
+| 18. |event.result                 |Contains the last/previous value returned by an event handler triggered by the specified |event|
+| 19. |event.stopImmediatePropagation() |Prevents other event handlers from being called|
+| 20. |event.stopPropagation()          |Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event|
+| 21. |event.target          |Returns which DOM element triggered the event|
+| 22. |event.timeStamp       |Returns the number of milliseconds since January 1, 1970, when the event is triggered|
+| 23. |event.type            |Returns which event type was triggered|
+| 24. |event.which           |Returns which keyboard key or mouse button was pressed for the event|
+| 25. |focus()               |Attaches/Triggers the focus event|
+| 26. |focusin()             |Attaches an event handler to the focusin event|
+| 27. |focusout()            |Attaches an event handler to the focusout event|
+| 28. |hover()               |Attaches two event handlers to the hover event|
+| 29. |keydown()             |Attaches/Triggers the keydown event|
+| 30. |keypress()            |Attaches/Triggers the keypress event|
+| 31. |keyup()               |Attaches/Triggers the keyup event|
+| 32. |mousedown()           |Attaches/Triggers the mousedown event|
+| 33. |mouseenter()          |Attaches/Triggers the mouseenter event|
+| 34. |mouseleave()          |Attaches/Triggers the mouseleave event|
+| 35. |mousemove()           |Attaches/Triggers the mousemove event|
+| 36. |mouseout()            |Attaches/Triggers the mouseout event|
+| 37. |mouseover()           |Attaches/Triggers the mouseover event|
+| 38. |mouseup()             |Attaches/Triggers the mouseup event|
+| 39. |off()                 |Removes event handlers attached with the on() method|
+| 40. |on()                  |Attaches event handlers to elements|
+| 41  |one()                 |Adds one or more event handlers to selected elements. This handler can only be triggered once per element|
+| 42. |$.proxy()             |Takes an existing function and returns a new one with a particular context|
+| 43. |ready()               |Specifies a function to execute when the DOM is fully loaded|
+| 44. |resize()              |Attaches/Triggers the resize event|
+| 45. |scroll()              |Attaches/Triggers the scroll event|
+| 46. |select()              |Attaches/Triggers the select event|
+| 47. |submit()              |Attaches/Triggers the submit event|
+| 48. |trigger()             |Triggers all events bound to the selected elements|
+| 49. |triggerHandler()      |Triggers all functions bound to a specified event for the selected elements|
+| 50. |unbind()              |Removes an added event handler from selected elements|
+| 51. |undelegate()          |Removes an event handler to selected elements, now or in the future|
