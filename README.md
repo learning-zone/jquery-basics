@@ -4,7 +4,7 @@
 
 ### Table of Contents
 
-* [jQuery Functions List](jquery-functions-list.md)  
+* *[jQuery Functions List](jquery-functions-list.md)*  
 
 
 #### Q. Explain Method Chaining in jQuery?
