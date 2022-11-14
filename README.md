@@ -8,6 +8,7 @@
 
 * *[jQuery Functions List](jquery-functions-list.md)*  
 
+<br/>
 
 #### Q. Explain Method Chaining in jQuery?
 #### Q. Explain **deferred** in jQuery?
